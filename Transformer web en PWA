@@ -1,0 +1,21 @@
+Transformer un site en PWA (Progressive Web App)
+
+Site de départ avec html, css, images et du sass qui doit être recompilé à chaque fois
+
+Faire un lighthouse test sur la page avec le plugin Chrome lighthouse - on obtient le rapport lighthouse avec les choses à améliorer au niveau performance, etc...
+
+Redimmensionner les images pour les optimisé pour le web. Photoshop save for web en JPeg, on peut diminuer la qualité de l'image en % mais aussi augmenter le blur ce qui est particulièrement intéressant pour les images abstraites ou celles sur lesquelles on veut mettre du texte par dessus.
+
+il faut télécharger le service worker à la racine dans le fichier html <sript>upup.min.js<script> à l afin du fichier juste avant la balise de fermeture </body> il faut placer le fichier du service worker à a la racine du site (upup.min.js) doit être placé à la racine du site.
+
+https automatique avec githubpage. Ne pas oublier de commiter et pusher les changement effectuer au fur et à mesure et puis de réaliser des test lighthouse régulièrement au cours du processus pour voir l'évolution.
+
+Pn va choisir une favicon en faisant une recherche sur le site https://thenounproject.com/term/favicon/ en fonction du thème de notre site et de l'icone que l'on veut pour notre app et on choisit la résolution 400x400 qui est idéale. On peut aussi la personnalisé via un logiciel d'image. Mettez le fichier de favicon à la racine. Une fois que l'on a l'image souhaitée, on va sur le site https://realfavicongenerator.net/ et on génère un favicone à partir de notre fichier image (de préférence vectoriel et simple graphiquement). Ne pas négliger la compression du favicon avant de générer le pack de favicon.
+
+
+
+
+
+
+
+
